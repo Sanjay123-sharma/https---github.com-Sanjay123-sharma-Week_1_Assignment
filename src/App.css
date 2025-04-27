@@ -1,0 +1,102 @@
+/*body */
+.body{
+  background-color: skyblue;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #21a1f1;
+  border: 5px solid white;
+}
+.App-header:hover{
+  background-color: #61dafb;
+  color: black;
+}
+
+/* Footer styles */
+.App-footer {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#21a1f1;
+  margin-top: auto; 
+  border: 5px solid white;
+}
+.App-footer:hover{
+  background-color: #61dafb;
+  color: black;
+}
+/* Counter  */
+.div {
+  background-color: #282c34;
+  min-height: 40vh;
+  border-radius: 60px;
+  margin: 60px auto;
+  max-width: 700px;
+  padding: 30px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid white;
+}
+
+/* Count text */
+.head {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.head:hover{
+  color: #61dafb;
+}
+
+/* Button base styles */
+.div-btn1,
+.div-btn2,
+.div-btn3 {
+  font-size: 40px;
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Hover and active effects */
+.div-btn1:hover,
+.div-btn2:hover,
+.div-btn3:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+.div-btn1:active,
+.div-btn2:active,
+.div-btn3:active {
+  transform: scale(0.91);
+}
+
