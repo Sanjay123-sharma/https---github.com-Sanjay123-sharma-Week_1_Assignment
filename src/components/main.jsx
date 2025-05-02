@@ -25,6 +25,7 @@ const Buttons=({increase,decrease,reset})=>{
 
 // Parent Component 
 const Counter=()=>{
+    
     const [count,setcount]=useState(0); // state
 
     const increase=()=>setcount(count+1);
